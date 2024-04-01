@@ -1,0 +1,46 @@
+<br /><br /><br />
+<div class="text1" style="text-align: right; float: right ;">
+<p>طور نفسك مع</p>
+<p>أحدث الدورات التدريبية</p>
+</div>
+<div class="text2" style="text-align: left; justify-content: space-between; display: inline;">
+    <p>الجميع</p>
+    <p>الدورات التأهيلية</p>
+    <p>الدورات التطورية </p>
+    <p>الدبلومات</p>
+</div>
+<h1 id="category"></h1>
+
+<div class="container">
+  <input type="radio" name="dot" id="one" />
+  <input type="radio" name="dot" id="two" />
+  <div class="main-card">
+    @for (item of slides; track $index) {
+    <div class="cards">
+      <div class="card">
+        <div class="content">
+          <div class="img">
+            <!-- <img src="assets/Image/1.jpg"> -->
+            <img [src]="item.img" alt="Uploaded Image" />
+          </div>
+          <div class="details">
+            <div class="name" style="font-weight: bold">
+              {{ item.title}}
+            </div>
+            <div class="descraption">{{ item.text }}</div>
+          </div>
+          <!-- <button class="contactButton" (click)="goToDisplay(item.id)">
+            {{ "category.show" }}
+          </button> -->
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+<div class="botton">
+  <div class="button">
+    <label for="one" class="active one"></label>
+    <label for="two" class="two"></label>
+  </div>
+</div>

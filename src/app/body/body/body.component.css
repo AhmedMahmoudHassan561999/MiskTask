@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: right; /* Aligns text to the right */
+  }
+  .text-box {
+    background: #fff; /* Background color for the text box */
+    margin-right: 0%; /* Margin from the right side of the page */
+    margin-left: auto; /* Keeps the box aligned to the right */
+    padding: 20px;
+    max-width: 800px; /* Maximum width of the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visibility */
+  }
+  .text-box p,
+  .text-box h2,
+  .text-box form {
+    text-align: right; /* Aligns text inside the box to the right */
+  }
+  form {
+    display: flex;
+    justify-content: flex-end; /* Aligns form items to the right */
+    gap: 10px; /* Spacing between form items */
+  }
+  form input,
+  form select,
+  form button {
+    padding: 10px;
+    margin: 5px 0; /* Vertical spacing for form items */
+  }
+  form button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #0056b3; /* Button hover state color */
+  }

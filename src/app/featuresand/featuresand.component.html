@@ -1,0 +1,29 @@
+
+<div class="container">
+  <div class="row" style="text-align: right;">
+    <p>استكشف</p>
+    <h3>الدورات التدريبية الاكثر شيوعا</h3>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let item of items; let i = index">
+      <div class="card h-100">
+        <div class="card-body text-center">
+          <div class="card-icon mb-2">
+            <!-- Use dynamic data for icon, e.g., item.icon -->
+            <i class="{{ item.iconClass }}"></i>
+          </div>
+          <h5 class="card-title">{{ item.title }}</h5>
+          <p class="card-text">{{ item.text }}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">{{ item.footerText }}</small>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
