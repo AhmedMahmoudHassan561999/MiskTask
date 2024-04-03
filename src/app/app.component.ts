@@ -9,6 +9,7 @@ import { AboutComponent } from './aboutsus/about/about.component';
 import { CategoryComponent } from './category/category/category.component';
 import { LayoutComponent } from './layout/layout/layout.component';
 import { ReviewsComponent } from './reviews/reviews/reviews.component';
+import { FooterComponent } from './Footer/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { ReviewsComponent } from './reviews/reviews/reviews.component';
     AboutComponent,
     CategoryComponent,
     LayoutComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    FooterComponent
 
   ],
   templateUrl: './app.component.html',

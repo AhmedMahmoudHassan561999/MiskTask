@@ -15,22 +15,22 @@ import { RouterLinkActive } from '@angular/router';
 export class FeaturesandComponent {
   items = [
     {
-      iconClass: 'bi bi-alarm', // replace with actual icon classes
-      title: '200+ مشروع',
-      text: 'نص توضيحي',
-      footerText: 'متاح'
+      iconClass: 'icon', // replace with actual icon classes
+      title: '99',
+      text:'الدورات التأهلية',
+      footerText: 'المزيد'
     },
     {
-    iconClass: 'bi bi-alarm', // replace with actual icon classes
-    title: '200+ مشروع',
-    text: 'نص توضيحي',
-    footerText: 'متاح'
+      iconClass: 'icon', // replace with actual icon classes
+      title: '99',
+      text:'الدورات التأهلية',
+      footerText: 'المزيد'
     },
     {
-      iconClass: 'bi bi-alarm', // replace with actual icon classes
-      title: '200+ مشروع',
-      text: 'نص توضيحي',
-      footerText: 'متاح'
+      iconClass: 'icon', // replace with actual icon classes
+      title: '99',
+      text:'الدورات التأهلية',
+      footerText: 'المزيد'
     }
   ];
 }

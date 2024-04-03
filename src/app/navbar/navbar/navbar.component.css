@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: white;
+    /* background-color: white; */
     color: black;
   }
   .navbar ul {
@@ -31,4 +31,12 @@ body{
   .navbar .logo {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  .navbar li:hover{
+    background-color:#206387  ;
+    border-radius: 10px;
+    
+  }
+  .navbar a:hover{
+    color: white;
   }

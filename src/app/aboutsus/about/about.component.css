@@ -1,0 +1,19 @@
+#imagedesign{
+
+    background-image: url('/assets/images/office.jpg')  ;
+  background-size: 400px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position:relative; /* Or 'fixed' depending on your layout needs */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-top-right-radius: 700%; /* Adjust the radius value as needed */
+  border-bottom-right-radius: 700%; /* Adjust the radius value as needed */
+  border-top-left-radius: 500%; /* Adjust the radius value as needed */
+  border-bottom-left-radius: 900%; /* Adjust the radius value as needed */
+  
+  overflow: hidden;
+}

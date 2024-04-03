@@ -7,32 +7,24 @@ body{
     padding: 0;
     
 }
-.header-bg {
-  background-size: cover;
+.content {
+  background-image: url('/assets/images/office.jpg')  ;
+  background-size: 686px 824px;
   background-repeat: no-repeat;
-  background-position: center center;
-  position: relative; /* if you need to position elements inside the header */
-  color: white; /* Assuming a light-colored text to stand out on a dark image */
-}
-
-/* You can also style the navbar to better fit the header background */
-.navbar {
-  background: none;
-}
-
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: white; /* or any color that stands out over your background image */
-}
-
-/* Optional: if you want the navbar to be slightly opaque */
-.navbar {
-  background: rgba(255, 255, 255, 0.1); /* white with 10% opacity */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  /* Styles for smaller screens */
+  background-position: left;
+  width: 100%;
+  position:relative; /* Or 'fixed' depending on your layout needs */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 200px; /* Adjust the radius value as needed */
+  border-bottom-left-radius: 1000px; /* Adjust the radius value as needed */
+  overflow: hidden; 
 }
 
 
+app-header, app-navbar, app-body {
+  width: 50%; /* Ensure they fill the container */
+  /* Additional styling as needed */
+}
